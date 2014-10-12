@@ -15,6 +15,24 @@ Authenticate with discourse with qq connect.
 
 ## Installation / 安装
 
+### Docker 安装
+
+在 `app.yml` 的
+
+    hooks:
+      after_code:
+        - exec:
+            cd: $home/plugins
+            cmd:
+              - mkdir -p plugins
+              - git clone https://github.com/discourse/docker_manager.git
+
+最后一行 `- git clone https://github.com/discourse/docker_manager.git` 后添加：
+
+    - git clone https://github.com/fantasticfears/qq_connect.git
+
+### Manual/ 手动安装
+
 Run `rake plugin:install repo=https://github.com/fantasticfears/qq_connect` in your discourse directory
 
 In development mode, run `rake assets:clean`
