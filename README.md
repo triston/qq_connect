@@ -55,7 +55,7 @@ Go to Site Settings's login category, fill in the client id and client secret.
 
 Visit [topic on Discourse Meta](https://meta.discourse.org/t/qq-login-plugin-qq/19718) or [GitHub Issues](https://github.com/fantasticfears/qq_connect/issues).
 
-访问[Discourse Meta 上的主题](https://meta.discourse.org/t/qq-login-plugin-qq/19718)或[GitHub Issues](https://github.com/fantasticfears/qq_connect/issues)。
+访问[中文论坛上的主题](https://meta.discoursecn.org/t/qq/42)或[GitHub Issues](https://github.com/fantasticfears/qq_connect/issues)。
 
 ## Changelog
 
