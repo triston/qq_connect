@@ -31,7 +31,7 @@ Authenticate with discourse with qq connect.
 
     - git clone https://github.com/fantasticfears/qq_connect.git
 
-### Manual/ 手动安装
+### Manual / 手动安装
 
 Run `rake plugin:install repo=https://github.com/fantasticfears/qq_connect` in your discourse directory
 
