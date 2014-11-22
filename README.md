@@ -59,7 +59,7 @@ Visit [topic on Discourse Meta](https://meta.discourse.org/t/qq-login-plugin-qq/
 
 ## Changelog
 
-Current version: 0.1.1
+Current version: 0.2.0
 
 <img src="https://meta.discourse.org/uploads/default/34493/dc792b8ba0ca145a.png" width="690" height="386">
 

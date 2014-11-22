@@ -1,6 +1,6 @@
 # name: QQ connect
 # about: Authenticate with discourse with qq connect.
-# version: 0.1.1
+# version: 0.2.0
 # author: Erick Guan
 
 gem 'omniauth-qq', '0.3.0'
@@ -36,7 +36,7 @@ class QQAuthenticator < ::Auth::Authenticator
 
   def after_create_account(user, auth)
     qq_uid = auth[:uid]
-    ::PluginStore.set('qq', "qq_id_#{qq_uid}", {user_id: user.id})
+    ::PluginStore.set('qq', "qq_uid_#{qq_uid}", {user_id: user.id})
   end
 
   def register_middleware(omniauth)
