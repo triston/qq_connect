@@ -11,7 +11,7 @@ Authenticate with discourse with qq connect.
 3. 填写相关信息。`网站地址`应填写论坛所处的位置。`回调地址`应填写根域名位置。如图所示。（验证所需要的标签可在 Discourse 设置中插入，验证后即可删除；访问 Discourse 管理面板 - 内容 - 页面顶部）
 4. 找到刚申请到的应用，在左上角找到`id`和`key`，分别填入 Discourse 设置中的 `client_key` 和 `client_secret`。
 
-<img src="https://meta.discourse.org/uploads/default/34523/414f622b202bba06.png" width="583" height="500"> 
+<img src="https://meta.discourse.org/uploads/default/34523/414f622b202bba06.png" width="583" height="500">
 
 ## Installation / 安装
 
@@ -59,7 +59,9 @@ Visit [topic on Discourse Meta](https://meta.discourse.org/t/qq-login-plugin-qq/
 
 ## Changelog
 
-Current version: 0.2.0
+Current version: 0.3.0
+
+0.3.0: 修正没有正确保存 uid 的 bug。
 
 <img src="https://meta.discourse.org/uploads/default/34493/dc792b8ba0ca145a.png" width="690" height="386">
 
