@@ -1,7 +1,8 @@
 # name: QQ connect
 # about: Authenticate with discourse with qq connect.
-# version: 0.3.0
-# author: Erick Guan
+# version: 0.3.1
+# authors: Erick Guan
+# url: https://github.com/fantasticfears/qq_connect
 
 gem 'omniauth-qq', '0.3.0'
 
