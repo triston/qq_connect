@@ -15,8 +15,6 @@ Authenticate with discourse with qq connect.
 
 ## Installation / 安装
 
-### Docker 安装
-
 在 `app.yml` 的
 
     hooks:
@@ -30,20 +28,6 @@ Authenticate with discourse with qq connect.
 最后一行 `- git clone https://github.com/discourse/docker_manager.git` 后添加：
 
     - git clone https://github.com/fantasticfears/qq_connect.git
-
-### Manual / 手动安装
-
-Run `rake plugin:install repo=https://github.com/fantasticfears/qq_connect` in your discourse directory
-
-In development mode, run `rake assets:clean`
-
-In production, recompile your assets: `rake assets:precompile`
-
-在您 Discourse 目录中运行 `rake plugin:install repo=https://github.com/fantasticfears/qq_connect`
-
-在开发者模式下，运行 `rake assets:clean`
-
-在生产模式下，重编译 assets `rake assets:precompile`
 
 ## Usage / 使用
 
@@ -59,9 +43,10 @@ Visit [topic on Discourse Meta](https://meta.discourse.org/t/qq-login-plugin-qq/
 
 ## Changelog
 
-Current version: 0.3.0
+Current version: 0.4.0
 
 0.3.0: 修正没有正确保存 uid 的 bug。
+0.4.0: 包含登录策略 gem，去掉下载外部 gem 的步骤。
 
 <img src="https://meta.discourse.org/uploads/default/34493/dc792b8ba0ca145a.png" width="690" height="386">
 
