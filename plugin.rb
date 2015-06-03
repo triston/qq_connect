@@ -2,6 +2,7 @@
 # about: Authenticate with discourse with qq connect.
 # version: 0.4.0
 # author: Erick Guan
+# url: https://github.com/fantasticfears/qq_connect
 
 # inline gem omniauth-qq
 require 'omniauth/strategies/oauth2'
